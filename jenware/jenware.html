@@ -18,11 +18,16 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa853', endColorstr='#fdf9bd',GradientType=0 );
   background-repeat: repeat-x;
   background-color: #fdf9bd; /* Old browsers */
-
+  margin: 0;
 }
 
 
 /* link styles */
+a{
+  text-decoration: none;
+  border-bottom: 1px dotted;
+  padding-bottom:.1em;
+}
 a:link {
     color: #C00;
   }
@@ -42,16 +47,22 @@ a:active {
 /* styles for the intro section */
 #intro {
 	text-align: center;
+ margin:2em 0 1em;
+}
+#intro h1{
+  margin-bottom: 0;
 }
 #intro h2 {
 	font-size: 1.2em;
 	text-transform: uppercase;
 	letter-spacing: .2em;
 	color: #f26521;
+ margin-top: -10px
 }
 #intro p {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-style: italic;
+ margin:1em;
 }
 
 /* styles for navigation */
@@ -87,6 +98,8 @@ a:active {
   background-color: #FFF;
   line-height: 1.5em;
   padding:1em;
+  border:double #ffbc53;
+  margin: 1em;
   }
 #products h2 {
   font-size: 1.2em;
@@ -98,6 +111,10 @@ a:active {
   font-size: 1em;
   text-transform: uppercase;
   color: #F26521;
+  border-top:1px solid;
+  border-left:3px solid;
+  padding-left:1em;
+  margin-top: 2.5em;
 }
 
 /* styles for the testimonials box */
@@ -109,6 +126,8 @@ a:active {
   color: #633;
   padding:1em;
   padding-left:55px;
+  border-radius:20px;
+  margin-top: 1em;
   }
   
 #testimonials h2 {
