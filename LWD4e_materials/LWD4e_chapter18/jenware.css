@@ -111,7 +111,7 @@ a:active {
 }
 
 /* styles for the products section */
-
+@media screen and (min-width: 780px)
 #products {
   background-color: #FFF;
   line-height: 1.5em;
